@@ -23,13 +23,13 @@ Please follow the instructions below to use this application.
 
 2. **Setting up your Google Cloud service account key**: 
 
-   Download your Google Cloud JSON key file and include it in the same directory as the Python script. Name it 'linear-charmer-403902-ddbd1d331c67.json' or alter the filename in the script to match your .json key file. 
-
-3. **Running the script**: 
+   Download your Google Cloud JSON key file and include it in the same directory as the Python script. Name it however you like but make sure to edit the path for json file in setup.py.
+   
+4. **Running the script**: 
     
    You can run the script by typing in your console, `python main.py`.
 
-4. **Using the program**: 
+5. **Using the program**: 
     
    When the 'Translate' button is clicked, the program captures an image of the content within the program window, extracts any text present in the image utilizing Google's Vision API, translates the extracted text to English using Google's Translation API, and displays the translated text in a popup overlay window.
 
